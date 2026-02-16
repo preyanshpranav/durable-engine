@@ -1,8 +1,10 @@
 package com.durable;
 
-import com.google.gson.Gson;
+import java.util.Optional;
 import java.util.concurrent.Callable;
 import java.util.concurrent.atomic.AtomicInteger;
+
+import com.google.gson.Gson;
 
 public class DurableContext {
     private final String workflowId;
